@@ -1,0 +1,18 @@
+                        O formato da notação Big O.
+
+• O(log n), também conhecido como tempo logarítmico. Exemplo: pesquisa
+binária.
+
+• O(n), conhecido como tempo linear. Exemplo: pesquisa simples.
+
+• O(n * log n). Exemplo: um algoritmo rápido de ordenação, como a
+ordenação quicksort (explicada no Capítulo 4).
+
+• O(n^2). Exemplo: um algoritmo lento de ordenação, como a ordenação por
+seleção (explicada no Capítulo 2).
+
+• O(n!). Exemplo: um algoritmo bastante lento, como o do caixeiro-viajante
+(explicado a seguir!).
+
+A rapidez de um algoritmo não é medida em segundos, mas pelo
+crescimento do número de operações.
