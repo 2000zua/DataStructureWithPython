@@ -1,0 +1,28 @@
+Busca Binaria (Dividir para conquisatar) => e um dos algaritmos eficientes usado para a fazer pegar um item 
+e uma lista de elementos organizada
+Exemplo para a pegar adivinhar um numero ,num range de  100 numeros a sequenia de probabilidade iria de 
+50 => 25 => 13 => 7 => 4 => 2=> 1
+Seja qual for o numero, vc poderia adivinhar num range de 7 tentativas para uma lista de 100 numeros
+Podemos usar esse algaritmos para fazer pesquisar eficiente num banco de dados por exemplo
+
+Suponha que você esteja procurando uma palavra em um dicionário. O
+dicionário tem 240.000 palavras. Na pior das hipóteses, de quantas etapas
+você acha que a pesquisa precisaria?
+Usando o algaritmos de pesquisa binaria para um lista de 240.000 elementos seriam necessario
+exactamente 18 tentativas.
+a sequenia de tentativas de eliminacao seriam
+120k => 60k => 30k => 15k => 7.5k => 3750 => 1875 => 938 => 469 => 235 => 118 => 59 => 30 => 15 => 8 => 4 => 2 => 1
+
+De uma forma geral a pesquisa binaria precisaria de log2 (n) para retorn o valor certo
+
+------------------------------------------------------------------------------
+             Pesquisa Simples            |     Pesquisa Binaria
+------------------------------------------------------------------------------
+100 items => 100 tentativas              |  100 items => 7 tentativas
+------------------------------------------------------------------------------
+4 bilhoes itens => 4 bilhoes  tentativas | 4.000.000.000 itens => 32 tentativas
+------------------------------------------------------------------------------
+            O(n)                         |              O (log n)
+------------------------------------------------------------------------------
+        Tempo de execucao linear         |  Tempo de execucao logaritimico
+------------------------------------------------------------------------------                     
